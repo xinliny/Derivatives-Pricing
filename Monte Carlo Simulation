@@ -1,7 +1,0 @@
-def normal_box(n,i):
-   rv_u = np.random.uniform(0,1,2*n)
-    u1 = rv_u[:n]
-    u2 = rv_u[n:]
-    z1 = np.sqrt(-2*np.log(u1)) * np.cos(2*np.pi*u2)
-    z2 = np.sqrt(-2*np.log(u1)) * np.sin(2*np.pi*u2)
-    return z1, z2
